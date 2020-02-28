@@ -1,0 +1,352 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  background-color: #222426
+}
+/* Pagina de Login */
+.descricao {
+  color: #d4cdcd;
+  font-family: cursive;
+  height: 10%;
+}
+.tittleLogin {
+  height: 45%;
+}
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 937px;
+}
+.formLogin {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background: #373a3f;
+  border-radius: 11px;
+  /* border: solid aquamarine; */
+  align-items: center;
+  padding: 15px 5px 5px 5px;
+  justify-content: center;
+  height: 23%;
+}
+.campo {
+  width: 75%;
+  display: flex;
+  margin: 5px;
+}
+.botaoLogar {
+  margin: 10px;
+}
+.logar {
+  background: #222426!important;
+  color: #fff!important;
+}
+a.logar {  
+  border: 1px solid #fff;
+  text-decoration: none;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-image: initial;
+  box-sizing: border-box;
+}
+.logar:hover {
+  background: aquamarine;
+  color: black;
+  transition: .5s;
+  transform: scale(1.2);
+}
+/* Final da pagina de Login */
+
+/* HEADER INICIO */
+#root > div > header > div > button {
+  height: 100%;
+}
+#root > div > header > div.music-of-legends > img {
+  height: 72px;
+  color: aquamarine;
+}
+#root > div > header > div.music-of-legends > h1 {
+  display: flex;
+  align-items: center;
+}
+#root > div.layout > div.conteudo > div.home > div {
+  margin: 10px;
+}
+header.App-header {
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #000;
+}
+
+.music-of-legends {
+  height: 138px;
+  display: flex;
+  color: #fff;
+}
+
+.button {
+  width: 41%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 65%;
+  width: 100%;
+  border-top: solid red 1px;
+}
+
+.menu > .col-sm> a {
+  color: aqua;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.col-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: solid red 1px;
+}
+.menu > .col-sm:hover {
+  background: #191818;
+}
+/******************************************* HEADER FINAL *****************************************************/
+
+.conteudo {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  color: aquamarine;
+}
+
+
+/******************************************** INICIO DA PAGINA HOME ******************************************/
+.home {
+  height: 675px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.raking {
+  display: flex;
+  justify-content: center;
+  font-size: 61px;
+}
+.tabelaUsuarios {
+  border-radius: 7px;
+  border: solid;
+  background: black;
+  height: auto;
+  width: 50%;
+}
+.colNomePotuacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 1px;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+}
+.positionTable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.informacoes {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  background: #b3aeae;
+  align-items: center;
+  flex-direction: row;
+  height: 24px;
+  width: 94%;
+  color: #343a40;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+}
+.tabela {
+  padding: 20px;
+}
+
+.usuario {
+  margin-right: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #540000;
+}
+/********************************************** FIM DA PAGINA HOME *******************************************/
+
+/********************************************** Pagina de Perfil *********************************************/
+.perfil {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 675px;
+  flex-direction: column;
+  align-items: center;
+}
+form.formulario-perfil {
+  height: 68%;
+  width: 26%;
+  display: flex;
+  align-items: center;
+}
+.cadastro{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 78px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: black;
+  border-radius: 11px;
+  border: solid aquamarine;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 5px 5px 5px;
+  height: 251px;
+}
+.campos {
+  width: 100%;
+}
+.campoPerfil {
+  width: 75%;
+  display: flex;
+  margin: 5px;
+}
+.campoPerfil > label {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+input[type="text"] {
+  width: 100%;
+  height: 100%; 
+}
+input[type="password"] {
+  width: 100%;
+  height: 100%;
+}
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  margin-right: 6px;
+}
+button.botaoFormPerfil {   
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  border: solid aquamarine;
+  color: #000;
+  font-family: monospace;
+  height: 22px;
+}
+.botaoSpace {
+  display: flex;
+  justify-content: center;
+  margin-left: 7px;
+}
+/* FIM DA PAGINA DE PERFIL */
+
+/* PAGINA DE PERGUNTAS */
+.paginaPerguntas {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tabelaPerguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  border-radius: 9px;
+  background: black;
+  height: 51%;
+  justify-content: center;
+  width: 50%;
+  padding: 8px;
+}
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 64%;
+    justify-content: space-evenly;
+}
+#root > div > div > div > div > div.opcoes > a {
+  display: flex;
+  height: 23px;
+  border-radius: 9px;
+  justify-content: center;
+  text-decoration: unset!important;
+  color: black;
+  align-items: center;
+}
+.backgroundTittle {
+  background: #af9d9d;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 27px;
+  width: 188px;
+}
+.quadroPerguntas {
+  height: 85px;
+  display: flex;
+  font-size: 19px;
+  font-weight: 900;
+  align-items: center;
+}
+a.opcao1 {
+  background: #fff;
+}
+/* FIM DA PAGINA DE PERGUNTAS */
+
+footer.Footer {
+  height: 10%;
+  width: 100%;
+  background: #000;
+}
+
+.Footer > h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 88px;
+  font-family: cursive;
+  margin-bottom: 0;
+}

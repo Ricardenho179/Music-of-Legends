@@ -1,0 +1,8 @@
+-Protótipo figma
+https://www.figma.com/proto/8P4y9B3qMgWgvUhJWSiKF6/ricardo?node-id=14%3A3&viewport=630%2C-147%2C0.14058782160282135&scaling=min-zoom
+
+Font Montserrat
+https://fonts.google.com/specimen/Montserrat
+
+Font Salsa
+https://fonts.google.com/specimen/Salsa

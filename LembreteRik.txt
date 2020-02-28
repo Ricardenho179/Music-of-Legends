@@ -1,0 +1,9 @@
+
+- Doc de como instalar e aprender
+https://reacttraining.com/react-router/web/guides/quick-start
+
+- Aplicando os caras
+https://codedaily.io/tutorials/45/Create-Nested-Tab-Routes-with-Dynamic-Paths-with-React-Router
+
+- Git no bruno pra ajudar a passar os dados pra outra
+https://github.com/BrunoVieira319/story-game-app/blob/master/src/components/Home.js
